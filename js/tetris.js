@@ -202,7 +202,7 @@ function newGame() {
     init();
     newShape();
     lose = false;
-    interval = setInterval( tick, 10 );
+    interval = setInterval( tick, 1 );
 }
 
 function clearAllIntervals(){
